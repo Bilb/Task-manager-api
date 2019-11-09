@@ -46,7 +46,7 @@ const userSchema = new mongoose.Schema({
     tokens: [{
         token: {
             type: String,
-            require: true
+            required: true
         }
     }],
     avatar: {
